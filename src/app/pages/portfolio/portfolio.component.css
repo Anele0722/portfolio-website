@@ -1,0 +1,27 @@
+.portfolio-section{
+    padding: 40px;
+}
+
+.project-grid{  
+    display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.project-card{
+    flex: 1 1 calc(33% -20px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+<div class="contact-section">
+    <h2> Get in Touch</h2>
+
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <input formcotrolName="name" placeholder="Your Name">
+        <input formcotrolName="email" placeholder="Your Email">
+        <input formcotrolName="message" placeholder="Your Message">
+        <button type="submit" [disabled]="contactForm.invalid">Send</button>
+</form>
+</div>
+
+
